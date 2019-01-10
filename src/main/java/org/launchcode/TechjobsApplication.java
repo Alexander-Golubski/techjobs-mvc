@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class TechjobsApplication {
+	//Not a model in the typical, object-oriented sense
 
 	public static void main(String[] args) {
 		SpringApplication.run(TechjobsApplication.class, args);

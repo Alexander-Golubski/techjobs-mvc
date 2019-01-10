@@ -36,6 +36,8 @@ public class ListController {
 
     @RequestMapping(value = "values")
     public String listColumnValues(Model model, @RequestParam String column) {
+        //Uses query parameter "column" to determine which values to
+        //fetch from JobData.
 
         if (column.equals("all")) {
             ArrayList<HashMap<String, String>> jobs = JobData.findAll();
